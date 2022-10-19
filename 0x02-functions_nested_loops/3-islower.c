@@ -3,7 +3,7 @@
 /**
 *_islower - Entry point
 *Description:Write a function that checks is a character is lowercase
-*c: the integer value it receives
+*@c: the integer value it receives
 *Return: 1 if true. 0 if false.
 *Return 0 if otherwise
 */
