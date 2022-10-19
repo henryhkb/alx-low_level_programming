@@ -1,14 +1,20 @@
-#include <stdio>
+ #include "main.h"
 
-main()
+/**
+*print_alphabet - Entry point
+*Description: a function that prints an alphabet,
+*in lowecase followed by a new line
+*Return: void
+*/
+void print_alphabet(void)
 {
+	char letter = 'w';
 
-	char alph = 'A';
-
-	alph = tolower(alph);
-
-	printf("Converting A to Lowercase is\n", alph);
-
-
-
+	while (letter <= 'k')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
+
