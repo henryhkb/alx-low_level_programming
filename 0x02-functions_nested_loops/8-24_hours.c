@@ -32,16 +32,16 @@ void jack_bauer(void)
 	_putchar(':');
 	_putchar(minutes_tens);
 	_putchar(minutes_ones);
-	_putchar('\n);
+	_putchar('\n');
 	minutes_ones++;
 	}
-	minutes_oness ='0';
+	minutes_ones ='0';
 	minutes_tens++;
 	}
 	minutes_tens = '0';
 	hours_ones++;
 	}
-	hours_one = '0';
+	hours_ones = '0';
 	hours_tens++;
 	}
 }
